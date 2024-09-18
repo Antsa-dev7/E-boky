@@ -1,0 +1,81 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* color variables */
+:root {
+  --clr-primary: #29221d;
+  --clr-primar-light: #473b33;
+  --clr-secondary: #29221d;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-pumpkin: #fe6c00;
+  --clr-silver: #a8a5a6;
+  --clr-silver-v1: #bdbabb;
+  --clr-scarlet: #fe1e00;
+  --clr-scarlet-v1: #rgb(254, 30, 0, 0.79);
+  --clr-green: #00fe93;
+  --clr-yellow: #fec80a;
+  --clr-jet: #302924;
+  --clr-peach: #ffc397;
+  --font-family-bai: "Bai Jamjuree", sans-serif;
+  /*transition related variable */
+  --transition-default: all 300ms ease-in-out;
+}
+
+body {
+  font-family: var( --font-family-bai);
+}
+
+/* some basic resets */
+ul {
+  list-style-type: none;
+}
+a {
+  color: unset;
+  text-decoration: none;
+  color: var(--clr-white);
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* for fully fitted image styling inside a container */
+.img-fit-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* text colors */
+.text-white {
+  color: var(--clr-white);
+}
+.text-silver-v1 {
+  color: var(--clr-scarlet-v1);
+}
+.text-scarlet {
+  color: var(--clr-scarlet);
+}
+.text-green {
+  color: var(--clr-green);
+}
+.bg-jet {
+  background: var(--clr-jet);
+}
+
+/* text size */
+.text-sm {
+  font-size: 14px;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
